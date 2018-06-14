@@ -1,0 +1,50 @@
+
+  
+  .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%; 
+}
+
+
+#b{
+  box-shadow: 0px 0px;
+  transition: box-shadow ease 10s;
+}
+
+#b :hover{
+  box-shadow: 5px 10px 8px #010000;
+  
+} 
+
+#a{
+    flex :1;
+    text-align: left; 
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color : gray;
+  justify-content: center;
+  
+}
+
+ .container div {
+  background-color: gray;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+
+
+}
