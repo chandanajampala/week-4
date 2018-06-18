@@ -1,1 +1,8 @@
 <h1>- We are learning -</h1>
+<div *ngFor="let tileObj of skillArr ; let i= index">
+ <div *ngIf= "i<5">
+<app-tile  [tileInfo]="tileObj">
+
+</app-tile>
+</div>
+</div>

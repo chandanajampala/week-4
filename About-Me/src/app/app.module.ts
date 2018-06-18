@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SkillPageComponent } from './pages/skill-page/skill-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
     LandingPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

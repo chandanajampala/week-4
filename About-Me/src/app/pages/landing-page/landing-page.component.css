@@ -1,3 +1,28 @@
 body {
     background-image: url("../../../assets/images/background.jpg");
 }
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray
+
+}
+
+.content a{
+    margin-right: 10px;
+    padding-right: 10px;
+    
+}
+.content i{
+        margin-right: 10px;
+        padding-right: 10px;
+}
+img {
+    height: 200px;
+    width: 300px;
+    object-fit: fill;
+
+    
+  }
